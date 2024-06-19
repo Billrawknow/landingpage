@@ -31,6 +31,8 @@ module.exports = {
         accent: {
           DEFAULT: '#cda274',
           secondary: '#f4f0ec',
+          DEFAULT: '#cda274',
+          secondary: '#f4f0ec',
         },
       },
     },
