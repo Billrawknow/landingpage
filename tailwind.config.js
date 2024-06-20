@@ -7,7 +7,7 @@ module.exports = {
         DEFAULT: '15px'
       },
     },
-    extend: {
+    screens: {
       sm:'640px',
       md:'768px',
       lg:'960px',
@@ -18,21 +18,20 @@ module.exports = {
       secondary: 'Jost',
     },
     backgroundImage: {
-      hero: 'url(/assests/hero/bg.jpg)',
-      hero: 'url(/assests/grid.png)',
+      hero: 'url(/assets/hero/bg.jpg)',
+      grid: 'url(/assets/grid.png)',
     },
     extend: {
       colors: {
         primary:{
-          DEFAULT: '#292F36',
+          DEFAULT: '#292f36',
           hover: '#343e4a',
         } ,
         secondary: '#4d5053',
         accent: {
           DEFAULT: '#cda274',
           secondary: '#f4f0ec',
-          DEFAULT: '#cda274',
-          secondary: '#f4f0ec',
+          hover:'#b88c5d',
         },
       },
     },
