@@ -584,37 +584,73 @@ video {
   }
 }
 
+.fixed {
+  position: fixed;
+}
+
+.relative {
+  position: relative;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.flex {
+  display: flex;
 }
 
 .grid {
   display: grid;
 }
 
-.h-\[\] {
-  height: ;
-}
-
-.h-\[3000\] {
-  height: 3000;
-}
-
 .h-\[3000px\] {
   height: 3000px;
 }
 
-.h-\[6\] {
-  height: 6;
-}
-
-.h-\[640\] {
-  height: 640;
-}
-
 .h-\[640px\] {
   height: 640px;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[567px\] {
+  width: 567px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .overflow-hidden {
@@ -629,6 +665,26 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-hero {
+  background-image: url(/assets/hero/bg.jpg);
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.text-center {
+  text-align: center;
 }
 
 body {
@@ -714,4 +770,77 @@ h6 {
 .btn-accent:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(184 140 93 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 960px) {
+  .lg\:items-start {
+    align-items: flex-start;
+  }
+
+  .lg\:bg-cover {
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1200px) {
+  .xl\:h-\[\] {
+    height: ;
+  }
+
+  .xl\:h-\[8\] {
+    height: 8;
+  }
+
+  .xl\:h-\[840\] {
+    height: 840;
+  }
+
+  .xl\:h-\[840px\] {
+    height: 840px;
+  }
+
+  .xl\:rounded {
+    border-radius: 0.25rem;
+  }
+
+  .xl\:rounded-b {
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+  }
+
+  .xl\:rounded-bl {
+    border-bottom-left-radius: 0.25rem;
+  }
+
+  .xl\:rounded-bl-\[\] {
+    border-bottom-left-radius: ;
+  }
+
+  .xl\:rounded-bl-\[29\] {
+    border-bottom-left-radius: 29;
+  }
+
+  .xl\:rounded-bl-\[290px\] {
+    border-bottom-left-radius: 290px;
+  }
+
+  .xl\:bg-grid {
+    background-image: url(/assets/grid.png);
+  }
+
+  .xl\:bg-center {
+    background-position: center;
+  }
+
+  .xl\:bg-repeat {
+    background-repeat: repeat;
+  }
+
+  .xl\:bg-repeat-y {
+    background-repeat: repeat-y;
+  }
+
+  .xl\:text-left {
+    text-align: left;
+  }
 }
