@@ -9,7 +9,7 @@
      <!-- ICONS -->
       <link 
       rel="stylesheet"
-      href=" https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css"
       />
       <!-- FONTS  -->
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,8 +23,14 @@
 <link rel="stylesheet" href="css/swiper.min.css" />
 </head>
 <body class="bg-gray-100">
+
+    <!-- header   -->
+<header class="sticky top-0 h-[90px] shadow-xl z-30">
+    header
+</header>
+
    <!-- page wrapper -->
-<main class="max-w[1920px] mx-auto bg-white overflow-hidden">
+<main class="max-w-[1920px] mx-auto bg-white overflow-hidden">
         <!-- <h1 class="h1">Interno</h1> -->
 <!-- grid img -->
  <div 
@@ -35,12 +41,23 @@
 <!--hero -->
 <section 
 class="hero h-[640px] xl:h-[840px] bg-hero bg-center lg:bg-cover bg-no-repeat
-bg-fixed xl:rounded-bl-[290px] relative z-2 ">
-    <div class="container mx-auto">
+bg-fixed xl:rounded-bl-[290px] relative z-20 ">
+    <div class="container mx-auto h-full flex items-center justify-center
+    xl:justify-start">
         <!-- text -->
-         <div class="hero_ _text w-[567px] flex flex-col items-center
-         text-center xl:text-left lg:items-start">text</div>
-         <h1 class="h1">Let Your Home Be Unique</h1>
+         <div class="hero__text w-[567px] flex flex-col items-center
+         text-center xl:text-left lg:items-start">
+         <h1 class="h1 mb-8">Let Your Home Be Unique</h1>
+         <p class="mb-8">
+            There are many variations of the passages of lorem Ipsum from 
+            available,variations of the passages.
+
+         </p>
+         <button class="btn btn-primary mx-auto xl:mx-0">
+            Get free estimation
+            <i class="ri-arrow-right-line text-accent"></i>
+        </button>
+        </div>
     </div>
 </section>
     </main>
